@@ -224,6 +224,31 @@
         }
       },
       "default": {}
+    },
+    "portfolio": {
+      "type": [
+        {
+          "title": "string",
+          "description": "string",
+          "url": "string"
+        }
+      ],
+      "default": []
+    },
+    "timeline": {
+      "type": [
+        {
+          "achievement": "string",
+          "description": "string",
+          "dateStart": "date",
+          "dateEnd": "date"
+        }
+      ],
+      "default": []
+    },
+    "nightMode": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],
